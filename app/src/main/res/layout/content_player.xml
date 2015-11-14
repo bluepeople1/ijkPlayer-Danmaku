@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.liucl.multiplayer.widget.media.ControllerView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/contentPanel"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -138,6 +140,7 @@
                 android:textSize="15sp" />
 
             <TextView
+                android:drawableTop="@drawable/ic_send_danmaku"
                 android:id="@+id/send_danmaku"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -155,6 +158,7 @@
                 android:gravity="center" />
 
             <TextView
+                android:drawableTop="@drawable/ic_player_locked_2"
                 android:id="@+id/lock_screen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -186,4 +190,6 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content" />
 
-</RelativeLayout>
+
+
+</com.liucl.multiplayer.widget.media.ControllerView>
