@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_time"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:padding="20dp"
+    android:background="#dd000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_time_line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:14/03:41"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/dialog_time_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+26秒"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</LinearLayout>

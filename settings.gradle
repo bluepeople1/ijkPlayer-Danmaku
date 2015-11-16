@@ -1,1 +1,1 @@
-include ':app', ':DanmakuFlameMaster', ':ijkplayer-java'
+include ':Player', ':DanmakuFlameMaster', ':ijkplayer-java'

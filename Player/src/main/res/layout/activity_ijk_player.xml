@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/fl_content"
+    android:layout_height="match_parent">
+    <com.liucl.multiplayer.widget.media.IjkVideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/content_player"/>
+
+    <include layout="@layout/load_player" />
+
+</FrameLayout>
